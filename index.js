@@ -51,3 +51,6 @@
 // 取消暂存文件：git reset HEAD 你要取消的文件（了解一下）
 // 移除文件：git rm -f 你要移除的文件（rm -> remove f -> force强制的意思）
 // 只移除仓库里面的文件，保留本地的文件：git rm --cached 你要移除的文件
+
+// git init
+// git add git commit -> git commit -a -m '描述信息'
