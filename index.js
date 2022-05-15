@@ -45,6 +45,8 @@
 // 添加文件被git所管理：git add 你要添加的文件的名称
 // 添加文件到暂存区：git commit -m '描述信息一定要写'
 // 一次性添加多个文件到暂存区：git add .
-// 跳过使用暂存区，就是 git add 和 git commit 两个命令的复合写法，git commit -a -m '描述信息'
+// 跳过使用暂存区，就是 git add 和 git commit 两个命令的复合写法，git commit -a -m '描述信息'（用的比较多）
 
 // 取消暂存文件：git reset HEAD 你要取消的文件（了解一下）
+// 移除文件：git rm -f 你要移除的文件（rm -> remove f -> force强制的意思）
+// 只移除仓库里面的文件，保留本地的文件：git rm --cached 你要移除的文件
