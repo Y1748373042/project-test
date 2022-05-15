@@ -66,20 +66,20 @@
 
 // 查看本地工程关联的远程仓库是哪个：git remote -v
 
-// git remote add origin https://github.com/zlc1000/project-test.git（是用来关联本地仓库和远程仓库的）
+// 1、git remote add origin https://github.com/zlc1000/project-test.git（是用来关联本地仓库和远程仓库的）
 
 // remote: 表示远程的意思
 // add: 添加
 // origin: 就是后面的git仓库地址的别名
 // 远程仓库的地址: https://github.com/zlc1000/project-test.git
 
-// git branch -M main（把默认的 master 分支名称改成了 main）
+// 2、git branch -M main（把默认的 master 分支名称改成了 main）
 
-// git push -u origin main 表示第一次本地仓库朝远程仓库提交的时候，必须这么写
+// 3、git push -u origin main 表示第一次本地仓库朝远程仓库提交的时候，必须这么写
 
 // push: 表示推送的意思
 // -u: 表示第一次推送的时候，必须添加 -u 参数
 // origin: 就是表示你要把工程往哪推，这个名字代表的地址就是你要推送到的地址
 // main: 表示上面那个地址所有的某一个点（房间，分支）
 
-// 后面，修改完代码之后，再次提交的时候：只需要走 git push 即可
+// 4、后面，修改完代码之后，再次提交的时候：只需要走 git push 即可
