@@ -112,3 +112,8 @@
 
 // 查看当前分支列表：git branch
 // 创建新分支：git branch 分支名称（字母login reg pay user）
+
+// 我现在在 main 分支里面随便加了点东西
+
+// git checkout 你要切换到的分支
+// xxx
