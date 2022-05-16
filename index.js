@@ -83,3 +83,32 @@
 // main: 表示上面那个地址所有的某一个点（房间，分支）
 
 // 4、后面，修改完代码之后，再次提交的时候：只需要走 git push 即可
+
+/**
+ * git 回顾：
+ * 1、生成本地仓库：git init
+ * 2、需要添加文件，文件夹当成我们资源：git add .
+ * 3、可以往本地提交：git commit -m '解决了xxx问题，新增了xxxx功能，修复了xxxbug'
+ * 4、和远程（云端）进行关联：git remote add origin https://xxxxxx.git
+ * 5、可以朝云端进行推送：git push -u origin master（后续再推送的时候，只需要 git push 即可）
+ * 
+ * 码云：
+ * cd xxxx cd 表示进入某一个文件夹
+ * cd existing_git_repo 意思就是先进入到 已经存在的仓库里面
+ * 
+ * 如何回到桌面：cd .. 表示回到上一级目录; 回到上两级：cd ../..
+ * 
+ */
+
+// 获取仓库的两种方式
+// 1、自己去生成 git init（.git）
+// 2、克隆：git clone 地址（.git）
+
+// 功能分支：登录注册功能，用户相关的功能，xxxx
+
+// 主分支：mater
+
+// 功能分支里面，应该是每个人专门负责一个分支（专门去负责某一个功能）-> 合并到一块的
+
+// 查看当前分支列表：git branch
+// 创建新分支：git branch 分支名称（字母login reg pay user）
